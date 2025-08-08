@@ -84,7 +84,7 @@ SELECT
 FROM Campaign
 GROUP BY gender;
 
---What is the average credit score for those who responded vs those who didnít?
+--What is the average credit score for those who responded vs those who didn‚Äôt?
 
 SELECT 
     responded,
@@ -100,7 +100,7 @@ SELECT
 	FROM Campaign
 	GROUP BY gender
 
---Which income group has the highest proportion of ìYesî responses?
+--Which income group has the highest proportion of ‚ÄúYes‚Äù responses?
 
 SELECT 
     Income_group,
@@ -128,7 +128,7 @@ FROM Campaign
 --Q3 Do customers with more children tend to respond more or less to campaigns?
 --Q4 Which segment (based on gender, age group, income group) has the highest conversion rate?
 --Q5 Is there a correlation between employment status and response rate?
---Q6 What factors (income, credit score, marital status, etc.) are most common among customers who responded ìYesî*
+--Q6 What factors (income, credit score, marital status, etc.) are most common among customers who responded ‚ÄúYes‚Äù*
 --Q7 Are there income groups or age groups where no one responded at all?
 --Q8 Based on the patterns, what type of customer is most likely to respond to a future campaign?
 
@@ -191,7 +191,7 @@ FROM Campaign
 GROUP BY employed
 ORDER BY yes_percentage DESC;
 
---Q6 What factors (income, credit score, marital status, etc.) are most common among customers who responded ìYesî*
+--Q6 What factors (income, credit score, marital status, etc.) are most common among customers who responded ‚ÄúYes‚Äù*
 
 SELECT 
 	income_group,
@@ -240,7 +240,7 @@ ORDER BY total_yes DESC;
 --5. Employment Status Influence: Employed customers have a higher likelihood of responding to campaigns.
 --6. Common Traits of Respondents: Respondents tend to be Male, Married, Middle-Aged, Middle-Income, and have High Credit Scores.
 --7. Non-Responsive Segments: No responses were recorded from the following groups: Low Income & Middle-Aged, Low Income & Young, Middle Income & Young
---8. Ideal Target Profile ñ The most promising audience for future campaigns is Male, Married, Middle-Aged, Middle-Income, High Credit Score, and Employed.  
+--8. Ideal Target Profile ‚Äì The most promising audience for future campaigns is Male, Married, Middle-Aged, Middle-Income, High Credit Score, and Employed.  
 
 
 --RECOMMENDATIONS
@@ -252,3 +252,4 @@ ORDER BY total_yes DESC;
 --6. Data-Driven Personalization: Use the identified customer traits to personalize messages, offers, and channels for maximum impact.
 
 --END OF PROJECT
+
