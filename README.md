@@ -20,7 +20,13 @@ The analysis focuses on identifying demographic and financial factors that influ
 - **Tableau** – Data visualization  
 - **Excel** – Preliminary data exploration  
 
-## 🛠 Data Cleaning & Preparation  
+## 🛠 Data Cleaning & Preparation 
+1. Identifying Null Value
+2. Identify how many rows are recorded
+3. Identify the structure of the table
+4. Create a new column that contains the Age Group (Young, Middle_Aged, and Older_Adult)
+5. Create a new column that contains the Credit score group (Lower_credit, Middle_credit, and High_credit)
+6. Create a new column that contains Income Group (Low Income, Middle Income, and High Income)
 
 ## 🔍 Analysis Questions  
 1. How does marital status influence campaign response?  
